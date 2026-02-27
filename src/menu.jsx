@@ -21,7 +21,7 @@ function Menu() {
 
   return (
     <div >
-        <h1>Menu Reactiu Briar!!!!</h1>
+        <h1>Menu Reactiu Briar!!!</h1>
         <div >
             <button onClick={tasca1}> Tasca 1</button>
         </div>
