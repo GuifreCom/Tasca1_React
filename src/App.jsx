@@ -10,6 +10,7 @@ import Tasca3 from './components/tasca3/Tasca3E1'
 import Menu from './menu'
 import Grid1 from './components/tasca4/Tasca4.1'
 import Grid2 from './components/tasca4/Tasca4.2'
+import Tasca5 from './components/tasca5/Tasca5'
 
 function App() {
 
@@ -35,8 +36,8 @@ function App() {
         return <Grid1/>
       case "tasca4.2":
         return <Grid2/>
-        
-    
+      case "tasca5":
+        return <Tasca5/>
     }
   }
 
