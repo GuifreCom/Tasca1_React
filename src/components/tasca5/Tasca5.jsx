@@ -16,10 +16,10 @@ function Tasques() {
             <h1>Llista de Tasques</h1>
             {tasks.map((task, index) => (
             <TaskItem
-            key={index}
-            taskName={task.taskName}
-            completed={task.completed}
-            canviTasca={() => canviTasca(index)}
+                key={index}
+                taskName={task.taskName}
+                completed={task.completed}
+                canviTasca={() => canviTasca(index)}
 
             />
         ))}
